@@ -56,11 +56,11 @@ End Sub
 
 > Note : all screenshots have a cell with the formula =TODAY() as a way to date them
 
-![2018](C:\Users\17138\Dropbox\GRADRICE - DA\RDA_reference_repo\VBA-challenge\stock_2018_screenshot.JPG)
+![2018](stock_2018_screenshot.JPG)
 
-![2019](C:\Users\17138\Dropbox\GRADRICE - DA\RDA_reference_repo\VBA-challenge\stock_2019_screenshot.JPG)
+![2019](stock_2019_screenshot.JPG)
 
-![2020](C:\Users\17138\Dropbox\GRADRICE - DA\RDA_reference_repo\VBA-challenge\stock_2020_screenshot.JPG)
+![2020](stock_2020_screenshot.JPG)
 
 ## VBA Script Modules
 
