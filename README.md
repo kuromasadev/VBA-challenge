@@ -55,6 +55,8 @@ End Sub
 ## Screenshots
 
 > Note : all screenshots have a cell with the formula =TODAY() as a way to date them
+>
+> For updated screenshots see the last section [Missing formatting]
 
 ![2018](stock_2018_screenshot.JPG)
 
@@ -354,6 +356,31 @@ addserv_table.Cells(4, 2).Value = maxVolumeStock
 addserv_table.Cells(4, 3).Value = Format(maxVolume, "#,##0")
 addserv_table.Columns.AutoFit
 
+
+End Sub
+```
+
+### Missing Formatting
+
+> most likely a processing error from my home computer, I was able to wrap up the missing formatting with the following module: 
+
+```visual basic
+Sub missingformat()
+
+Dim summarytable_header As Range
+Set summarytable_header = Range("L1:Z1")
+
+summarytable_header.Columns(1).Value = "Stock Tickers"
+summarytable_header.Cells(2).Value = "Yearly Change"
+summarytable_header.Cells(3).Value = "Percent Change"
+summarytable_header.Cells(4).Value = "Total Traded Volume"
+summarytable_header.Cells(6).Value = "Additional Calculations"
+summarytable_header.Cells(7).Value = "Ticker"
+summarytable_header.Cells(8).Value = "Value"
+summarytable_header.Cells(10).Value = "Average Percent Change"
+summarytable_header.Cells(11).Value = "% Change representative?"
+summarytable_header.Font.Bold = True
+summarytable_header.Columns.AutoFit
 
 End Sub
 ```
